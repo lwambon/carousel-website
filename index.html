@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./assets/icon.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>carousel - image slider</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="carousel-container">
+      <h2 class="title">Mountains in Africa</h2>
+      <div class="carousel-section-container">
+
+        <div class="content-container fade">
+          <div class="content-details">
+            <h3 class="sub-title">Mount Kilimanjaro</h3>
+            <img
+              src="./assets/mt kilimanjaro.jpg"
+              alt="Mount Kilimanjaro"
+              class="image"
+            />
+          </div>
+          <div class="location">
+            <p class="text-section">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              dolores dolore libero iste laborum delectus.
+            </p>
+            <p class="area-found">Tanzania</p>
+          </div>
+        </div>
+
+        <div class="content-container fade">
+          <div class="content-details" >
+            <h3 class="sub-title">Mount Kenya</h3>
+            <img src="./assets/mt kenya.jpg" alt="Mount Kenya" class="image" />
+          </div>
+          <div class="location">
+            <p class="text-section">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              dolores dolore libero iste laborum delectus.
+            </p>
+            <p class="area-found">Kenya</p>
+          </div>
+        </div>
+
+        <div class="content-container fade">
+          <div class="content-details" >
+            <h3 class="sub-title">Mount Baker</h3>
+            <img src="./assets/mt baker.jpeg" alt="Mount Baker" class="image" />
+          </div>
+          <div class="location">
+            <p class="text-section">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              dolores dolore libero iste laborum delectus.
+            </p>
+            <p class="area-found">South Africa</p>
+          </div>
+        </div>
+
+        <div class="content-container fade">
+          <div class="content-details">
+            <h3 class="sub-title">Mount Stanley</h3>
+            <img
+              src="./assets/mt stanley.jpeg"
+              alt="Mount Stanley"
+              class="image"
+            />
+          </div>
+          <div class="location">
+            <p class="text-section">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              dolores dolore libero iste laborum delectus.
+            </p>
+            <p class="area-found">Nigeria</p>
+          </div>
+        </div>
+
+        <div class="content-container fade">
+          <div class="content-details">
+            <h3 class="sub-title">Muhavaro Volcano</h3>
+            <img
+              src="./assets/muhavaro volcano.jpeg"
+              alt="Muhavaro Volcano"
+              class="image"
+            />
+          </div>
+          <div class="location">
+            <p class="text-section">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+              dolores dolore libero iste laborum delectus.
+            </p>
+            <p class="area-found">Chad</p>
+          </div>
+        </div>
+
+        <!-- Navigation arrows -->
+        <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        <!-- Dots for navigation -->
+        <div style="text-align:center;">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+      </div>
+    </div>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
