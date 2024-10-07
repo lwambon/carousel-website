@@ -7,71 +7,72 @@
 html {
   font-size: 62.5%;
 }
- 
-  .title {
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 3rem;
-  }
-  .carousel-section-containe{
-    max-width: 100%;
-    position: relative;
-    margin: auto;
-  }
-  .content-container {
-    /*display: flex;
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+}
+.carousel-section-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.content-container {
+  /*display: flex;
     flex-wrap: wrap;
     flex-direction: column;*/
-    margin: 10rem auto;
-    justify-content: center;
-    align-items: center;
-    width: 50rem;
-    box-shadow: 0 0 1.5rem; 
-    display: none;
-  }
-  
-  .content-details {
-    margin: .8rem;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5rem;
-    padding-top: 2rem;
-  }
-  
-  .sub-title {
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 2rem;
-  }
-  
-  .image {
-    width: 22rem;
-    height: 12rem;
-    border-radius: 0.5rem;
-  }
+  margin: 10rem auto;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  box-shadow: 0 0 1.5rem;
+  display: none;
+}
 
-  .location {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin: 1rem;
-    padding-top: 1.5rem;
-  }
-  
-  .text-section {
-    width: 65%;
-    line-height: 1.5;
-    font-size: 1.3rem;
-  }
-  
-  .area-found {
-    text-transform: capitalize;
-    font-size: 1.7rem;
-    text-align: center;
-    font-weight: bold;
-  }
-  
-  
+.content-details {
+  margin: 0.8rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding-top: 2rem;
+}
+
+.sub-title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2rem;
+  padding-top: 4rem;
+}
+
+.image {
+  width: 22rem;
+  height: 12rem;
+  border-radius: 0.5rem;
+}
+
+.location {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1rem;
+  padding-top: 1.5rem;
+}
+
+.text-section {
+  width: 65%;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.area-found {
+  text-transform: capitalize;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: bold;
+}
 
 .fade {
   animation-name: fade;
@@ -87,8 +88,8 @@ html {
   }
 }
 
-
-.previous, .next {
+.previous,
+.next {
   cursor: pointer;
   font-size: 3rem;
   font-weight: bold;
@@ -96,7 +97,7 @@ html {
   top: 35%;
   width: auto;
   margin-top: -2.2rem;
-  padding: 1rem ;
+  padding: 1rem;
   color: black;
   user-select: none;
   transition: 0.6s ease;
@@ -107,8 +108,9 @@ html {
   right: 0;
 }
 
-.previous:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.previous:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
   color: white;
 }
 
@@ -123,6 +125,7 @@ html {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
